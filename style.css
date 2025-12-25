@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f6f6f6;
+  color: #222;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)
+  ), #1e7f43;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ff8c00;
+}
+
+.tagline {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.promise {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ff8c00;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #1e7f43;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about p,
+.eco p,
+.contact p {
+  text-align: center;
+}
+
+.buy ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.buy li {
+  background: #fff;
+  padding: 15px;
+  border-left: 5px solid #ff8c00;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #1e7f43;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cta {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
